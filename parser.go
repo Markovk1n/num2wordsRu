@@ -1,4 +1,4 @@
-package num2Ru
+package num2wordsru
 
 import "strings"
 
@@ -92,7 +92,7 @@ func thousand(rest int, sex string) (int, []string) {
 	return plural, name
 }
 
-func num2text(num int) string {
+func Num2text(num int) string {
 	if num == 0 {
 		return "ноль"
 	}
