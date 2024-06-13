@@ -8,7 +8,7 @@ var tens = []string{"", "десять", "двадцать", "тридцать", 
 var hundreds = []string{"", "сто", "двести", "триста", "четыреста", "пятьсот", "шестьсот", "семьсот", "восемьсот", "девятьсот"}
 var thousands = []string{"тысяча", "тысячи", "тысяч"}
 
-func numberToWordsRu(n int) string {
+func NumberToWordsRu(n int) string {
 	if n == 0 {
 		return "ноль"
 	}
